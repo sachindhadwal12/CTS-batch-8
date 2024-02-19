@@ -2,12 +2,72 @@
 <html lang="en">
 
 <head>
+    <style>
+        .footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: orange;
+   color: white;
+   text-align: center;
+}
+        </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <title>Navigation Bar</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background: rgb(37,37,37);
+        }
+        ul{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            background: rgb(46,46,46);
+            width: 500px;
+            height: 70px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px rgba(red,green,blue,alpha);
+            display: flex;
+         }
+
+         ul li{
+             line-height: 70px;
+             width: 100px;
+             color: #fff;
+             text-transform: capitalize;
+             font-family: Arial, Helvetica, sans-serif;
+             list-style: none;
+             text-align: center;
+         }
+    </style>
 </head>
 
 <body>
+    <nav>
+        <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>help</li>
+            <li>support</li>
+        </ul>
+    </nav>
+
+
+    <title>Document</title>
+    <h1> Admissions are in progress (2024-2025)</h1>
+</head>
+
+<body>
+
     <h5>Welcome to Open Source Project</h5>
     <div style="justify-content: space-between; justify-items: inherit;">
         
@@ -15,6 +75,17 @@
         
     </div>
 
+ <h5>Welcome to Open Source Project</h5>
+<div class="alert alert-primary" role="alert">
+  Limited Admissions. Register Fast!
+</div>
+
+
 </body>
+
+<div class="footer">
+    <p>Author: Hege Refsnes</p>
+    <p>hege@example.com</p>
+  </div>
 
 </html>
