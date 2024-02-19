@@ -5,10 +5,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .grid-item {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .grid-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
 </head>
 
 <body>
-
+    <H1 style="text-align: center;">Team / Faculty Members</H1>
+    <div class="grid-container">
+        <div class="grid-item">
+            <h3 style="text-align: center;">Principal<h3>
+            <img src="https://bhs-senior.birlahighschool.com/sites/bhs-senior.birlahighschool.com/files/33%20%281%29.jpg" alt="Placeholder 1">
+        </div>
+        <div class="grid-item">
+            <h3 style="text-align: center;">Teachers</h3>
+            <img src="https://media.istockphoto.com/id/515264850/photo/a-group-of-cheerful-teachers-hanging-out-in-school-corridor.jpg?s=612x612&w=0&k=20&c=FvP-vUvbd5cQlfP0Y104t66Us2_aC0pV4ppcKn8TK6s=" alt="Placeholder 2">
+        </div>
+        <div class="grid-item">
+            <h3 style="text-align: center;">Staff</h3>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsQAHrhRLOyR9CXC0Uhfqz5nREFib1NG3FdwZFILGLHH1RCllizUYLVeovyj2OgO4rrjk&usqp=CAU" alt="Placeholder 3">
+        </div>
+    </div>
 </body>
 
 </html>
